@@ -1,3 +1,3 @@
 module Zxcvbn
-  VERSION = "4.2.0"
+  VERSION = "4.2.0.1"
 end
