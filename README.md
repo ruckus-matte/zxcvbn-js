@@ -1,13 +1,18 @@
-# zxcvbn-ruby
+# zxcvbn-js
 
-Ruby port of [zxcvbn.js](https://github.com/dropbox/zxcvbn)
+Fork of [zxcvbn-ruby](https://github.com/envato/zxcvbn-ruby)
+
+This fork runs the JS implementation via ExecJS so that the results are the same. 
+This fixes discrepancies in the implentation for using zxcvbn also for client-side validation.
+
+Ruby port of [zxcvbn.js](https://github.com/dropbox/zxcvbn) 
 
 ## Usage
 
 Gemfile:
 
 ```ruby
-gem 'zxcvbn-ruby', require: 'zxcvbn'
+gem 'zxcvbn-js', require: 'zxcvbn'
 ```
 
 Example usage:
