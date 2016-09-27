@@ -1,4 +1,4 @@
-# zxcvbn-js
+# zxcvbn-js [![Gem Version](https://badge.fury.io/rb/zxcvbn-js.svg)](https://badge.fury.io/rb/zxcvbn-js)
 
 Fork of [zxcvbn-ruby](https://github.com/envato/zxcvbn-ruby)
 
