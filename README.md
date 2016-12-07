@@ -1,9 +1,8 @@
 # zxcvbn-js [![Gem Version](https://badge.fury.io/rb/zxcvbn-js.svg)](https://badge.fury.io/rb/zxcvbn-js)
 
-Fork of [zxcvbn-ruby](https://github.com/envato/zxcvbn-ruby)
+Fork of [zxcvbn-js](https://github.com/bitzesty/zxcvbn-js)
 
-This fork runs the JS implementation via ExecJS so that the results are the same. 
-This fixes discrepancies in the implentation for using zxcvbn also for client-side validation.
+This fork implements the gem as Rails Engine compatible for asset pipeline usage so we can use the same javascript client-side that the gem is using via ExecJS server-side. No copying needed.
 
 Ruby port of [zxcvbn.js](https://github.com/dropbox/zxcvbn) 
 
@@ -12,7 +11,7 @@ Ruby port of [zxcvbn.js](https://github.com/dropbox/zxcvbn)
 Gemfile:
 
 ```ruby
-gem 'zxcvbn-js', require: 'zxcvbn'
+gem 'zxcvbn-js', require: 'zxcvbn', git: 'ruckus-matte/zxcvbn-js'
 ```
 
 Example usage:
