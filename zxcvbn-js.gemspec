@@ -2,11 +2,11 @@
 require File.expand_path('../lib/zxcvbn/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Bit Zesty"]
-  gem.email         = ["info@bitzesty.com"]
-  gem.description   = %q{Ruby port of Dropboxs zxcvbn.js}
+  gem.authors       = ['Matte Edens', "Bit Zesty"]
+  gem.email         = ['matte@silent-e.com', "info@bitzesty.com"]
+  gem.description   = %q{Ruby port of Dropbox's zxcvbn.js with Rails Asset Pipeline compatibility}
   gem.summary       = %q{}
-  gem.homepage      = "http://github.com/bitzesty/zxcvbn-js"
+  gem.homepage      = "http://github.com/ruckus-matte/zxcvbn-js"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
