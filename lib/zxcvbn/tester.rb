@@ -5,7 +5,7 @@ module Zxcvbn
     DATA_PATH = Pathname(File.expand_path('../../../vendor/assets/javascripts/zxcvbn.js', __FILE__))
 
     def initialize
-      src = File.open(DATA_PATH, 'r').read
+      src = File.read(DATA_PATH)
       @context = ExecJS.compile(src)
     end
 
